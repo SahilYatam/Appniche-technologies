@@ -1,0 +1,31 @@
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo-img {
+  width: 30px;
+  height: 35px;
+}
+
+.logo-h1 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    gap: 10px;
+    margin-right: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 10vw;
+    position: relative;
+    right: 19px;
+  }
+}

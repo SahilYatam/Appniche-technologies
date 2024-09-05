@@ -1,0 +1,106 @@
+.line-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.line-img img {
+  width: 66.72vw;
+  height: 27.55vw;
+  margin-top: -36vw;
+  margin-bottom: 36vw;
+}
+
+.rectangle-one {
+  width: 100vw;
+  height: 4vw;
+  margin-top: -54vw;
+  margin-bottom: 53vw;
+  background-color: #2a2626;
+  transform: rotate(359deg);
+}
+
+.rectagnle-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 5vw;
+  background-color: #5454ff;
+  align-items: center;
+  padding: 10px;
+  margin-top: -58vw;
+    margin-bottom: 37vw;
+  transform: rotate(3deg);
+  overflow: hidden;
+}
+
+.scrolling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* Adjust based on how many logos you have */
+  }
+}
+
+.rectagnle-span {
+  display: flex;
+  gap: 12px;
+}
+
+.rectagnle-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+/* Tablet screen size media queries */
+
+@media (max-width: 768px) {
+  .rectangle-one{
+    height: 6vw;
+    margin-top: -54vw;
+  }
+  .rectagnle-two{
+    height: 7vw;
+    margin-top: -60vw;
+  }
+  .rectagnle-p{
+    font-size: 1rem;
+  }
+  .googleLogo{
+    width: 70px;
+  }
+  .line-img img{
+    margin-top: -43vw;
+    margin-bottom: 29vw;
+    height: 33.55vw;
+  }
+}
+
+/* Mobile screen size media queries */
+
+@media (max-width: 480px) {
+  .line-img img{
+    margin-top: -62vw;
+    margin-bottom: 31vw;
+  }
+  .cart-logo1{
+    width: 18px;
+  }
+  .cart-logo{
+    width: 25px;
+  }
+}

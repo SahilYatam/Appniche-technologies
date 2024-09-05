@@ -1,0 +1,321 @@
+.feedback-container {
+  position: relative;
+  bottom: 98vh;
+  z-index: 9;
+}
+
+.img-line {
+  position: relative;
+  margin-top: -13vw;
+  margin-bottom: 13vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 18vw;
+  width: 66.72vw;
+  height: 32.55vw;
+}
+
+.FeedBack-Text {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-left: 21vw;
+  margin-bottom: 13vw;
+  margin-top: -32vw;
+  padding-bottom: 20vw;
+}
+
+.FeedBack-Text h1 {
+  font-size: 3.33vw;
+  font-weight: 500;
+  background: linear-gradient(to right, #9795FF, #ffffff, #ffffff, #BE9FFF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.FeedBack-Text p {
+  font-size: 1.17vw;
+  width: 34vw;
+}
+
+.quotaionImg {
+  position: relative;
+  bottom: 179vh;
+  left: 130vh;
+}
+
+.card {
+  width: 20vw;
+  height: 11.46vw;
+  background-color: #1515157d;
+  padding: 43px;
+  border-radius: 14px;
+  box-shadow: -2px -3px 2px -2px;
+}
+
+.card-header {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 1.4vw;
+  margin-right: 1vw;
+  margin-top: -1vw;
+  padding-bottom: 1vw;
+}
+
+.card-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.card-header-text h3 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.card-header-text p {
+  font-size: 0.80vw;
+  font-weight: 100;
+}
+
+.small-quotation {
+  width: 2vw;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  padding-left: 16vw;
+  align-content: flex-start;
+  bottom: 4.5vw;
+}
+
+.small-quotation img {
+  width: 2.24vw;
+  height: 1.61vw;
+}
+
+.card-body {
+  position: relative;
+  bottom: 2vw;
+  right: 1vw;
+}
+
+.card-body p {
+  width: 16vw;
+  font-size: 0.85vw;
+  font-weight: 100;
+}
+
+.allfeedback-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  position: relative;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: 28vw;
+  z-index: 20;
+  margin-top: -106vw;
+  padding-bottom: 104vw;
+}
+
+/* Laptop screen szie media queries */
+
+@media (max-width: 1366px) {
+  .allfeedback-cards {
+    margin-left: 21vw;
+    margin-top: -138vw;
+    padding-bottom: 106vw;
+  }
+
+  .img-line {
+    width: 69.72vw;
+    margin-top: 7vw;
+    margin-bottom: -19vw;
+  }
+
+  .FeedBack-Text {
+    margin-left: 21vw;
+    margin-top: -12vw;
+  }
+
+  .quotaionImg {
+    bottom: 116vw;
+    margin-left: -41vw;
+  }
+
+  .small-quotation {
+    bottom: 6.5vw;
+  }
+
+  .card-body {
+    bottom: 3vw;
+    right: 1vw;
+  }
+
+  .profile-img {
+    width: 35px;
+  }
+
+  .card-header {
+    padding-bottom: 2vw;
+    margin-top: -2vw;
+    margin-left: -1vw;
+  }
+}
+
+/* Tablet screen size media quereis */
+@media (max-width: 768px) {
+  .img-line {
+    margin-top: 51vw;
+    margin-bottom: 12vw;
+    width: 72.72vw;
+    margin-left: 13vw;
+    height: 58.55vw;
+  }
+
+  .quotaionImg {
+    bottom: 160vw;
+    margin-left: -151vw;
+  }
+
+  .FeedBack-Text {
+    margin-left: 17vw;
+    margin-top: -47vw;
+    gap: 20px;
+  }
+
+  .FeedBack-Text h1 {
+    font-size: 2rem;
+  }
+
+  .FeedBack-Text p {
+    font-size: 1rem;
+    width: 55vw;
+  }
+
+  .allfeedback-cards {
+    margin-left: 18vw;
+    margin-top: -219vw;
+    padding-bottom: 106vw;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 55vw;
+  }
+
+  .card {
+    width: 34vw;
+    height: 20.46vw;
+  }
+
+  .card-header {
+    margin-top: -4vw;
+    margin-left: -3vw;
+    padding-bottom: 2vw;
+  }
+
+  .card-header-text h3 {
+    font-size: 1rem;
+    width: 20vw;
+  }
+
+  .card-header-text p {
+    font-size: 0.82rem;
+  }
+
+  .small-quotation {
+    padding-left: 26vw;
+  }
+
+  .small-quotation img {
+    height: 2.61vw;
+    width: 4.24vw;
+  }
+
+  .card-body {
+    right: 4vw;
+  }
+
+  .card-body p {
+    width: 33vw;
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile screen size media queries */
+
+@media (max-width: 480px) {
+  .img-line {
+    margin-top: 41vw;
+    margin-bottom: 0vw;
+    width: 87.72vw;
+    margin-left: 6vw;
+    height: 85.55vw;
+  }
+
+  .quotaionImg {
+    bottom: 211vw;
+    margin-left: -255vw;
+    width: 93vw;
+    padding-bottom: 36vw;
+  }
+
+  .FeedBack-Text {
+    margin-left: 10vw;
+    margin-top: -47vw;
+    gap: 13px;
+  }
+
+  .FeedBack-Text h1 {
+    font-size: 1.5rem;
+  }
+
+  .FeedBack-Text p {
+    font-size: 1rem;
+    width: 81vw;
+  }
+
+  .allfeedback-cards {
+    margin-left: 20vw;
+    margin-top: -332vw;
+    padding-bottom: 110vw;
+    padding-right: 135vw;
+  }
+
+  .card {
+    width: 40vw;
+    height: 54.46vw;
+  }
+
+  .card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-img {
+    width: 40px;
+  }
+
+  .card-header-text h3 {
+    width: 26vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card-header-text p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .small-quotation {
+    display: none;
+  }
+
+  .card-body {
+    bottom: 0vw;
+  }
+}

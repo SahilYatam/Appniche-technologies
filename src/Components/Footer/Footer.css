@@ -1,0 +1,162 @@
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 76vw;
+  align-items: center;
+  margin-left: 9vw;
+  padding: 1vw;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-container2 {
+  display: flex;
+  justify-content: center;
+  width: 76vw;
+  margin-left: 11vw;
+  margin-top: 3vw;
+  gap: 6vw;
+}
+
+.termsCoditions {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.footer-services {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#services {
+  margin-bottom: 0.30vw;
+}
+
+#contact {
+  margin-bottom: 0.30vw;
+}
+
+#twitterImg {
+  position: relative;
+  bottom: 1.2vw;
+  margin-left: 7.60vw;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#logo p {
+  width: 23vw;
+  font-size: 0.92vw;
+}
+
+/* Laptop screen size media queries */
+
+@media (max-width: 1366px) {
+  .footer-container2{
+    width: 85vw;
+    margin-left: 6vw;
+    gap: 8vw;
+  }
+  #twitterImg{
+    bottom: 1.6vw;
+    margin-left: 10.6vw;
+  }
+}
+
+/* Tablet screen size media queries */
+
+@media (max-width: 768px) {
+  #logo p {
+    width: 26vw;
+    font-size: 1rem;
+  }
+  #logo {
+    gap: 23px;
+  }
+  .footer-container{
+    width: 87vw;
+    padding-top: 2vw;
+    margin-left: 4vw;
+  }
+  .footer-container2 {
+    width: 88vw;
+    margin-left: 3vw;
+    gap: 5vw;
+    margin-top: 6vw;
+    padding-bottom: 4vw;
+  }
+  
+  .copyright{
+    font-size: 0.90rem;
+    width: 55vw;
+  }
+
+  .termsCoditions{
+    gap: 20px;
+      font-size: 0.90rem;
+  }
+  #twitterImg {
+    bottom: 3.6vw;
+    margin-left: 18.6vw;
+}
+}
+
+/* Mobile screen size media queries */
+
+@media (max-width: 480px) {
+  .footer-container {
+    width: 96vw;
+    padding-top: 3vw;
+    margin-left: 2vw;
+  }
+  #logo p {
+    width: 23vw;
+  }
+  .footer-container2 {
+    margin-left: 6vw;
+    gap: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+  .copyright {
+    width: 86vw;
+    padding-top: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .termsCoditions {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  #twitterImg {
+    bottom: -1.4vw;
+    margin-left: 3.6vw;
+  }
+  .social-media-png {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}

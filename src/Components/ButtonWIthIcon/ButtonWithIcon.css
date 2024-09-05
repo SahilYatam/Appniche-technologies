@@ -1,0 +1,78 @@
+.primary-btn {
+  background: #fff;
+  width: 9vw;
+  color: #000;
+  padding: 0.7vw 1.1vw;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 200;
+  position: relative;
+  padding-left: 0.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-size: 0.92vw;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 20px 0 100px #ffffff45, -40px 0 100px #c9c7ca3b;
+}
+
+.arrow {
+  position: absolute;
+  margin-left: 6.4vw;
+}
+
+/* Laptop screen media queries  */
+@media (max-width: 1366px) {
+  .primary-btn {
+    width: 12vw;
+    height: 3.2vw;
+    font-size: 1.3vw;
+    padding-right: 35px;
+  }
+
+  .arrow {
+    margin-left: 8.6vw;
+  }
+}
+
+/* Tablet screen media queries */
+@media (max-width: 768px) {
+
+  .primary-btn {
+    width: 17vw;
+    height: 5vw;
+    font-size: 1rem;
+    padding-right: 27px
+  }
+  .arrow {
+    margin-left: 13.6vw;
+  }
+}
+
+/* Mobile screen media queries */
+@media (max-width: 480px) {
+
+  .primary-btn {
+    /* width: 40vw;
+    height: 10vw;
+    padding-right: 30px; */
+    padding-right: 31px;
+    width: 140px;
+    height: 38px;
+  }
+  .arrow {        
+    margin-left: 111px;
+    font-weight: 800;
+  }
+  .nlogo{
+    width: 28px;
+  }
+  .googlelogo{
+    width: 68px;
+  }
+}

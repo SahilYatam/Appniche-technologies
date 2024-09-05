@@ -1,0 +1,117 @@
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 36vw;
+  padding: 21vw 8vw;
+  margin-top: 7vw;
+  color: #fff;
+}
+
+
+.container {
+
+  background:
+  radial-gradient(circle at 86% 48%, #4b0082 0%, transparent 33%),
+  radial-gradient(circle at 14% 86%, #4b0082 0%,  transparent 35%),
+  radial-gradient(circle at 37% 86%, #4b0082 0%, transparent 31%);
+  background-color: #000000;
+
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.heading {
+  width: 27vw;
+  font-size: 4.17vw;
+  text-align: start;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 3vw;
+  background: linear-gradient(to right, #A5A6FF, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.para {
+  font-size: 1.25vw;
+  font-weight: 200;
+  color: #d5d5d5;
+  padding-bottom: 2vw;
+}
+
+.cta-buttons {
+  display: flex;
+  padding-top: 1vw;
+}
+
+
+/* Laptop screen size media queries */
+
+@media (max-width: 1366px) {
+  .hero {
+    margin-top: 11vw;
+    padding: 26vw 8vw;
+  }
+
+  .heading {
+    width: 34vw;
+    font-size: 5.17vw;
+    padding-bottom: 4vw;
+  }
+
+  .para {
+    font-size: 1.70vw;
+    padding-bottom: 3vw;
+  }
+}
+
+/* Tablet screen size media queries */
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 23vw;
+    padding: 30vw 8vw;
+  }
+
+  .hero-content {
+    margin-bottom: 49px;
+  }
+
+  .heading {
+    width: 54vw;
+    font-size: 3rem;
+    padding-bottom: 5vw;
+  }
+
+  .para {
+    font-size: 1.2rem;
+    width: 79vw;
+    text-align: start;
+  }
+}
+
+/* Mobile screen size media queries */
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 88vw 8vw;
+  }
+
+  .hero-content {
+    margin-bottom: 56px;
+  }
+
+  .heading {
+    width: 90vw;
+  }
+
+  .para {
+    padding-top: 4vw;
+  }
+
+  .cta-buttons {
+    display: block;
+    margin-bottom: -32vw;
+  }
+}
